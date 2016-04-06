@@ -34,3 +34,11 @@ start initially at the first city in their respective subsequences.
 <li>
 <strong>N queen</strong>: The N Queen is the problem of placing N chess queens on an N×N chessboard so that no two queens attack each other. For example, following is a solution for 4 Queen problem.
 </li>
+<br>
+<li>
+<strong>Making Change</strong>: You are given n types of coins with values v 1 , ..., v n and a cost C. You may
+assume v 1 = 1 so that it is always possible to make any cost. Give an algorithm for finding the
+smallest number of coins required to sum to C exactly.
+For example, assume you coins of values 1, 5, and 10. Then the smallest number of coins to make
+26 is 4: 2 coins of value 10, 1 coin of value 5, and 1 coin of value 1.
+</li>
