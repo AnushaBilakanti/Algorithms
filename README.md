@@ -54,3 +54,12 @@ the difference of the sum of the integers in each set, is minimized. For example
 {2, 3, 2, 7, 9}, you can divide it into {2, 2, 7} (sums to 11) and {3, 9} (sums to 12) for a difference
 of 1.
 </li>
+<br>
+<li>
+<strong>Edit Distance</strong>: Given two text strings A = a 1 a 2 ...a n of length n and B = b 1 b 2 ...b m of length
+m, you want to transform A into B with a minimum number of operations of the following types:
+delete a character from A, insert a character into A, or change some character in A into a new
+character. The minimal number of such operations required to transform A into B is called the
+edit distance between A and B. Give an algorithm for finding the edit distance from A to B.
+</li>
+<br>
