@@ -19,10 +19,14 @@ int Knapsack(int W, int v[], int w[], int n)
 
 int main(void)
 {
-	int n = 3;
-	int v[] = {6, 10, 12};
-	int w[] = {1, 2, 3};
-	int W = 5;
+	int n;
+	cin >> n;
+	int v[n], w[n], W;
+	for(int i=0; i<n; i++)
+		cin >> v[i];
+	for(int i=0; i<n; i++)
+		cin >> w[i];
+	cin >> W;
 	cout << Knapsack(W,v,w,n) << endl;
 	return 0;
 }

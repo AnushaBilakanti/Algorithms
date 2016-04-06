@@ -47,3 +47,10 @@ For example, assume you coins of values 1, 5, and 10. Then the smallest number o
 <strong>Longest Increasing Subsequence</strong>: problem is to find the length of the longest subsequence of a given sequence such that all elements of the subsequence are sorted in increasing order. For example, length of LIS for { 10, 22, 9, 33, 21, 50, 41, 60, 80 } is 6 and LIS is {10, 22, 33, 50, 60, 80}
 </li>
 <br>
+<li>
+<strong>Balanced Paritions</strong>: Suppose you are given an array of n integers {a 1 , ..., a n } between 0 and M .
+Give an algorithm for dividing these integers into two sets x and y such that | x i ∈x x i − y i ∈y y i |,
+the difference of the sum of the integers in each set, is minimized. For example, given the set
+{2, 3, 2, 7, 9}, you can divide it into {2, 2, 7} (sums to 11) and {3, 9} (sums to 12) for a difference
+of 1.
+</li>
