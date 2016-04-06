@@ -16,14 +16,6 @@ string LCS(string a, string b)
 			else
 				store[i][j] = max(store[i-1][j], store[i][j-1]);
 		}
-	{
-		for(int i=0; i<=a_len; i++)
-		{
-			for(int j=0; j<=b_len; j++)
-				cout << store[i][j] << "   ";
-			cout << endl;
-		}
-	}
 	string lcs;
 	for(int i=a_len, j=b_len; i>0 && j>0;)
 	{
@@ -44,8 +36,8 @@ string LCS(string a, string b)
 
 int main(void)
 {
-	string a = "abadhis";
-	string b = "alabama";
+	string a, b;
+	cin >> a >> b;
 	cout << LCS(a, b) << endl;
 	return 0;	
 }
