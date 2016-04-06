@@ -30,6 +30,7 @@ start initially at the first city in their respective subsequences.
 <li>
 <strong>Longest Common Sequence</strong>: Given two sequences, find the length of longest subsequence present in both of them. A subsequence is a sequence that appears in the same relative order, but not necessarily contiguous. For example, “abc”, “abg”, “bdf”, “aeg”, ‘”acefg”, .. etc are subsequences of “abcdefg”. So a string of length n has 2^n different possible subsequences.
 </li>
+<br>
 <li>
 <strong>N queen</strong>: The N Queen is the problem of placing N chess queens on an N×N chessboard so that no two queens attack each other. For example, following is a solution for 4 Queen problem.
 </li>
