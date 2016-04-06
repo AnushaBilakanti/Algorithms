@@ -14,14 +14,6 @@ int Knapsack(int W, int v[], int w[], int n)
 			else
 				store[i][j] = store[i-1][j];	
 		}	
-	{
-		for(int i=0; i<=n; i++)
-		{
-			for(int j=0; j<=W; j++)
-				printf("%4d",store[i][j]);
-			cout << endl;
-		}
-	}
 	return store[n][W];
 }
 
